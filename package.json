@@ -16,5 +16,8 @@
     "url": "https://github.com/n0tx/typescript/issues"
   },
   "homepage": "https://github.com/n0tx/typescript#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
