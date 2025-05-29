@@ -22,5 +22,25 @@ npx tsc index.ts
 akan menghasilkan file index.js
 2. jalankan file index.js
 node index.js
+output: Riki Candra
 
 # 2. menggunakan npm dan file package.json
+1. edit package.json
+tambahkan: "dev": "tsc && node index.js"
+
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "tsc && node index.js"
+},
+
+2. hapus dahulu index.js hasil dari cara 1
+rm -rf index.js
+
+3. jalankan, npm run dev
+
+output:
+
+> typescript@1.0.0 dev
+> tsc && node index.js
+
+Riki Candra
