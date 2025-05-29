@@ -1,0 +1,15 @@
+# Setup environment for coding typescript
+1. create index.ts
+provide .ts file before npm init to generated 
+type environment typescript 
+2. node index.ts (error)
+3. npm init to generate package.json 
+for preparing install typescript 
+and tsc init
+(npm init -y)
+4. install typescript
+generate node_modules directory
+(npm install typescript --save-dev)
+5. tsc init
+generate tsconfig.json
+(npx tsc --init)
