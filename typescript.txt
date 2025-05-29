@@ -13,3 +13,14 @@ generate node_modules directory
 5. tsc init
 generate tsconfig.json
 (npx tsc --init)
+
+# Mulai menjalankan index.ts
+ada 2 cara
+# 1. cara manual langsung
+1. compile dulu index.ts
+npx tsc index.ts
+akan menghasilkan file index.js
+2. jalankan file index.js
+node index.js
+
+# 2. menggunakan npm dan file package.json
