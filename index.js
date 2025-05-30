@@ -1,3 +1,3 @@
-"use strict";
-let nama = "Riki Candra";
+var nama = "Riki Candra";
 console.log(nama);
+console.log({ nama: nama });

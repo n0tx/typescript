@@ -44,3 +44,45 @@ output:
 > tsc && node index.js
 
 Riki Candra
+
+# cara 3, 
+https://chatgpt.com/c/68387057-b2d8-8013-bd6c-191847ca25fa,
+
+menambahkan rootDir, outDir, include
+, exclude pada tsconfig.json
+rootDir: tempat semua file .ts (src)
+outDir: tempat file hasil kompolasi .js (dist)
+include: file yang akan dicompile
+exclude: file yang akan diabaikan, tidak dikompile
+
+ubah tsconfig
+ubah cara 2 ke cara 3 ( manual langsung juga )
+
+cara 3 memisahkan .ts file yang 
+dikumpulkan pada src dir
+dan .js file hasil kompilasi pada
+dist dir
+
+# untuk sekarang pakai cara 1 manual dulu
+untuk file .ts (source) dan .js (hasil kompile) 
+di tempatkan pada rootDir (root project)
+
+karena memilih cara manual 1, maka file
+package.json bagian scripts dihapus
+bagian npm run dev nya.
+
+# jadi perintah proses kompile dan menjalankannya
+1. kompile: npx tsc file.ts
+output: file.js
+2. running: node file.js
+output: Hello World
+
+merubah dari cara 2 (npm run dev)
+ke cara 1 (manual compile dan run)
+
+mencetak nilai dari sebuah 
+variable string
+console.log(nama);
+
+mencetaknya menjadi sebuah objek
+console.log( { nama } );
