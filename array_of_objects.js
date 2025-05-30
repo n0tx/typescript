@@ -17,10 +17,11 @@ var pencil = {
     item: "Pencil",
     price: 1000
 };
-var items = [
-    book,
-    pen,
-    pencil
-];
+// error, Cannot assign to 'id' because it is a read-only property.
+// book.id = 100;
+var items = [book, pen, pencil];
+// error, Cannot assign to 'id' because it is a read-only property.
+// items[1].id = 200;
+items[1].item = "Pen Color";
 console.log(items);
 console.log({ items: items });
