@@ -87,8 +87,6 @@ console.log(nama);
 mencetaknya menjadi sebuah objek
 console.log( { nama } );
 
-
-
 Comments are not permitted in JSON.(521)
 package.json
 // "dev": "tsc && node index.js" 
