@@ -1,11 +1,11 @@
-export {};
+export { };
 
 type Theme = "light" | "dark";
 
-let theme: Theme;
+let theme: Theme = "light";
 
 function setTheme(themeName: Theme) {
-    theme = themeName;
+  theme = themeName;
 }
 
 setTheme("dark");
