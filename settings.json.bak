@@ -1,0 +1,134 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "breadcrumbs.enabled": true,
+    "editor.fontFamily": "Liberation Mono, Cantarell, Hack, Lato, TeX Gyre Adventor, YaHei Consolas Hybrid, Noto Sans Mono, DejaVu Sans Mono, DejaVu Sans, Fira Code, Noto Sans, Droid Sans Mono, Bitstream Vera Sans Mono, Quicksand Medium, Nimbus Sans, SF Pro Text, SF Mono, SF Pro Rounded, Roboto",
+    "terminal.integrated.fontFamily": "Liberation Mono, Cantarell, Hack, Lato, TeX Gyre Adventor, YaHei Consolas Hybrid,Noto Sans Mono, DejaVu Sans Mono, DejaVu Sans, Fira Code, Noto Sans, Droid Sans Mono, Bitstream Vera Sans Mono, Quicksand Medium, Liberation Mono, Nimbus Sans, SF Pro Text, SF Mono, SF Pro Rounded,  Roboto",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 12,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    // height tab size
+    // "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.guides.indentation": false,
+    /*
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  */
+    /*
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    120
+  ],
+  */
+    // added cant use format ctrl + k ctrl + f
+    // warning cant format prettier contain comments
+    // in json file
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.autofetch": true,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+    "workbench.editorAssociations": {
+        "*.sql": "default"
+    },
+    "window.titleBarStyle": "custom",
+    "workbench.startupEditor": "none",
+    /*
+  // for java installed
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.diagnostics.undefinedConstants": false,
+  "intelephense.diagnostics.undefinedTypes": false,
+  */
+    // "typescript.validate.enable": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "editor.lineHeight": 1.5,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.ignoreRebaseWarning": true,
+    "editor.minimap.enabled": false,
+    // "boot-java.rewrite.reconcile": true,
+    "git.openRepositoryInParentFolders": "never",
+    // "java.settings.url": "/home/n0tx/stamina/vscode-java.prefs",
+    // "java.format.enabled": true
+    // Autocompletion JSX or HTML
+    // tutup sementara ngga tau ini apa, 8 May 2025
+    /*
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  */
+    "gitlens.views.commits.files.layout": "tree",
+    "gitlens.views.worktrees.files.layout": "list",
+    "editor.fontLigatures": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    // Ctrl+K for killing till the end of the line,
+    // Ctrl-Y pastes the killed line from above
+    // Ctrl+R searches for your commands in your history,
+    // and Ctrl+A goes to the beginning of the line
+    "terminal.integrated.allowChords": false,
+    "workbench.colorTheme": "Dark Chrome DevTools",
+    // Override activityBar ini hanya saat tema "Light Chrome DevTools" sedang dipakai
+    // buat default activityBar hitam (Light Chrome DevTools) menjadi seperti Armadillo (Abu2)
+    // kalau ganti theme selain Light Chrome DevTools, 
+    // "workbench.colorCustomizations" harus ditutup
+    /*
+    "workbench.colorCustomizations": {
+        // ubah panel kiri (Activity Bar) jadi abu sedikit gelap
+        "activityBar.background": "#e8e8e8",
+        // pastikan icon-nya (foreground) jadi gelap agar kontras
+        "activityBar.foreground": "#333333",
+        // jika ingin membedakan icon yang aktif
+        "activityBar.activeBackground": "#CCCCCC",
+        "activityBar.activeBorder": "#888888"
+    },
+    */
+    // setting fontsize coderunner output
+    "[code-runner-output]": {
+        "editor.fontSize": 13
+    },
+    "redhat.telemetry.enabled": true,
+    // https://albertobasalo.medium.com/how-to-configure-vscode-to-code-better-typescript-d6e000b2cb06
+    // setup vscode for typescript
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "html.format.wrapLineLength": 120,
+    // Format early and always
+    "editor.autoIndent": "full",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "none",
+    "editor.tabSize": 4,
+    "html.format.indentInnerHtml": true,
+    "html.format.wrapAttributes": "auto",
+    // Take control of files, folders, and import paths
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": "explicit",
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "explorer.compactFolders": false,
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "node_modules/": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // Add color to add meaning
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on"
+}
