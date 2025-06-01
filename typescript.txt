@@ -90,3 +90,13 @@ console.log( { nama } );
 Comments are not permitted in JSON.(521)
 package.json
 // "dev": "tsc && node index.js" 
+
+# vscode for coding typescript
+- typescript language server // ini uda ada built-in vscodenya
+- prettier // pakai ini dulu
+- eslint nanti saja
+
+mau coba eslint + prettier di vscode
+search: prettier typescript vscode
+https://medium.com/@robinviktorsson/setting-up-eslint-and-prettier-for-a-typescript-project-aa2434417b8f
+
