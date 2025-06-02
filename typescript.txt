@@ -100,3 +100,16 @@ mau coba eslint + prettier di vscode
 search: prettier typescript vscode
 https://medium.com/@robinviktorsson/setting-up-eslint-and-prettier-for-a-typescript-project-aa2434417b8f
 
+1. buat index.ts kosong
+2. generate package.json, npm init -y
+3. install typescript, npx tsc --init
+
+type-annotation
+union
+array
+function
+type-alias
+interface
+enum
+modules-export-import
+generic
