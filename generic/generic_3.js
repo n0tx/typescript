@@ -3,11 +3,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var riki = {
     id: 1,
     name: "Riki Candra",
-    isComplete: true,
+    isComplete: true
 };
 var budi = {
     id: 2,
-    name: "Budi",
+    name: "Budi"
 };
 // fungsi generic ini artinya
 // <> simbol diamond: tipe generik yang
@@ -23,6 +23,15 @@ var persons = [riki, budi];
 console.log(getLength("Riki Candra")); // 11
 // tuple (array tetap)
 console.log(getLength(["Riki", 28])); // 2
+// array
+console.log(getLength([1, 2, 3])); // 3
+// array of object
+console.log(getLength(persons)); // 2
+// secara eksplisit menentukan tipe data generic targetnya
+// string
+console.log(getLength("Budi Sanjaya")); // 11
+// tuple (array tetap)
+console.log(getLength(["Budi", 28])); // 2
 // array
 console.log(getLength([1, 2, 3])); // 3
 // array of object
